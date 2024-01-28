@@ -1,0 +1,40 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(to right, #ca10ca,#20b2aa);
+    padding: 0.938rem 2.5rem;
+}
+
+footer .text{
+    color: var(--text-light);
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.text .text__title{
+    font-weight: bold;
+    font-size: 0.875rem;
+    margin-bottom: 0.625rem;
+}
+
+.text .text__subtitle{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.button .sign_up__button{
+    background-color: var(--bg-color-button);
+    color: var(--text-dark);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.875rem 1.875rem;
+    border: 0;
+    border-radius: 2.5rem;
+    cursor: pointer;
+    flex-shrink: 0;
+}
